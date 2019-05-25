@@ -15,7 +15,7 @@ l1a = BeautifulSoup(l1.text, 'html.parser')
 l1b = l1a.text.rstrip().lstrip()
 print (l1b)
 
-l2 = get("https://raw.githubusercontent.com/archive-code/gapenting/blob/master/2.txt")
+l2 = get("https://raw.githubusercontent.com/archive-code/gapenting/master/2.txt)
 l2a = BeautifulSoup(l2.text, 'html.parser')
 l2b = l2a.text.rstrip().lstrip()
 print (l2b)
